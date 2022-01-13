@@ -10,14 +10,32 @@
       max-width: 25%;
       height: auto;
     }
-    img:hover {
+
+    a img:hover {
       border: 0;
+    }
+
+    figcaption {
+      font-size: small;
     }
   </style>
 
   <title>UD4-T2. Borde azul de la muerte </title>
 </head>
 <body>
-  <img src="images/duck.jpg" alt="a duck">
+  <p>Si usáramos un navegador antíguo <em>(e.g. IE 10)</em>, esta imagen tendría un hermoso borde azul
+    cuando pasásemos el cursor sobre ella.</p>
+
+  <div>
+    <figure>
+      <a href="https://commons.wikimedia.org/wiki/File:Tufted_duck_in_Sakai,_Osaka,_February_2016.jpg" target="blank">
+        <img src="images/duck.jpg" alt="a duck">
+      </a>
+      <figcaption>Esta foto tendrá borde en navegadores anteriores.</figcaption>
+    </figure>
+  </div>
+
+  <p>En el pasado ese borde era una molestia. Para evitarlo, antes de HTML5 de usaba el atributo <code>border = "0"</code>
+    pero ahora declaramos esta propiedad desde CSS.</p>
 </body>
 </html>

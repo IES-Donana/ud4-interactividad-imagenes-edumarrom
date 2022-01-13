@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3. Crea un fichero ej3.html donde incluyas tres imágenes diferentes que
+        encuentres en internet (licencia libre de uso) que se muestren según tres
+        puntos de ruptura que definas. -->
+
+        <!-- sources:
+         - Super Mario / Mario (CC-BY) https://stiemannkj1.gitlab.io/marios-size-and-shape/
+         - Goomba (CC-BY) https://en.wikipedia.org/wiki/Goomba-->
+    <picture>
+        <source media="(min-height:414px)" srcset="images/smario.gif">
+        <source media="(min-height:210px)" srcset="images/mario.jpg">
+        <source media="(min-height:80px)" srcset="images/goomba.gif">
+        <img src="images/goomba.gif" alt="Goomba">
+    </picture>
+</body>
+</html>
