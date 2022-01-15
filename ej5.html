@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    div {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    img {
+      width: 20%;
+      height: auto;
+      float: left;
+    }
+
+    /* 1. Escala de grises */
+    .grayscale {
+      filter: grayscale(100%);
+    }
+
+    /* 2. Desenfoque */
+    .blur {
+      filter: blur(4px);
+    }
+
+    /* 3. Sepia */
+    .sepia {
+      filter: sepia(100%);
+    }
+
+    /* 4. Saturación */
+    .saturate {
+      filter: saturate(7);
+    }
+
+    /* 5. Opacidad */
+    .opacity {
+      filter: opacity(50%);
+    }
+
+    /* 6. Brillo */
+    .brightness {
+      filter: brightness(0.3);
+    }
+
+    /* 7. Contraste */
+    .contrast {
+      filter: contrast(180%);
+    }
+
+    /* 8. Rotación de colores */
+    .huerotate {
+      filter: hue-rotate(180deg);
+    }
+
+    /* 9. Colores invertidos */
+    .invert {
+      filter: invert(100%);
+    }
+  </style>
+  </style>
+  <title>Ejercicio 5</title>
+</head>
+
+<body>
+  <!-- 5. Tomando una de la imágenes de los proyectos que generaste en la
+    anterior entrega, crea un fichero ej5.html donde se muestre con los
+    siguientes efectos: escala de grises, desenfoque, sepia, saturación,
+    opacidad, brillo, contraste, rotación de colores y negativo. -->
+
+<div>
+  <img class="grayscale" src="images/cartas.png" alt="cartas" />
+  <img class="blur" src="images/cartas.png" alt="cartas" />
+  <img class="sepia" src="images/cartas.png" alt="cartas" />
+</div>
+<div>
+  <img class="saturate" src="images/cartas.png" alt="cartas" />
+  <img class="opacity" src="images/cartas.png" alt="cartas" />
+  <img class="brightness" src="images/cartas.png" alt="cartas" />
+</div>
+<div>
+  <img class="contrast" src="images/cartas.png" alt="cartas" />
+  <img class="huerotate" src="images/cartas.png" alt="cartas" />
+  <img class="invert" src="images/cartas.png" alt="cartas" />
+</div>
+</body>
+
+</html>
