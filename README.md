@@ -13,10 +13,22 @@
 
 **6. Desde el tablón de inicio entra en el repositorio del portafolio del compañero/a que se te ha asigando (ver listado al final). Hazte un fork y clónalo en tu equipo. A partir de aquí, deberás realizar las siguientes acciones:**
 - Cambia o incluye (si no existiera) las etiquetas <img> por <picture> donde tomes diferentes imágenes como recurso según el punto de ruptura establecido en la web.
+    - index.html -> línea 48
+    - La imagen principal del portfolio cambia con el punto de ruptura.
 - Aplica uno de los efectos vistos.
+    - index.html -> línea 219
+    - style.css -> línea 399
+    - El teléfono y el mail se invierten al pasar el cursor.
 - Cambia o incluye un logo en formato SVG (puedes incluir el que generaste o pedirle a tu compañero/a el que generó).
+    - index.html -> línea 231
+    - He usado el siguiente pack de iconos: [Social Black Icons Por Rebin Infotech](https://icon-icons.com/es/pack/Social-Black-Icons/791&page=1)
 - Crea una figura SVG (línea, polígono, cuadrado, círculo,...) y ubícala en el pie de la página. Aplícale estilos acorde con el resto de la web.
+    - index.html -> línea 262
+    - style.css -> línea 477
+    - Inspirado en los logotipos de Adobe (Ps, Ai, etc).
 - Incluye o modifica una imagen en formato PNG con canal transparencia y aplícale el filtro de drop-shadow para mostrar un borde.
+    - index.html -> línea 219
+    - El teléfono y el mail tienen una sombra.
 - Incluye la carpeta del proyecto a la tarea con el nombre de tu compañero/a del siguiente modo: ej6-isaura.
 
 
