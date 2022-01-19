@@ -396,7 +396,10 @@ a {
   align-items: center;
 }
 
-/* 6p2: Aplica uno de los efectos vistos */
+/* 6p3: Aplica uno de los efectos vistos
+   Finalmente aplico el drop shadow a través de una clase y un <di> independientes
+   porque de lo contrario el color de la sombra también se invierte, no importa el
+   orden en el que aplique las funciones de filtro. */
 #tlf:hover,
 #mail:hover {
   filter: invert();
@@ -474,7 +477,7 @@ a {
   margin-bottom: 0;
 }
 
-/* 6p4: Crea un elemento vectorial e insertalo en el footer */
+/* 6p4: crea un elemento vectorial e insertalo */
 .footer img {
   max-width: 5%;
   filter: drop-shadow(5px 5px 4px #000);
